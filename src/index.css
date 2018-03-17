@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100%;
+  color: #5f5f5f;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.likedIcon {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  color: #4a90e2 !important;
+}
+.likedIcon:hover {
+  transform: scale(1.1);
+}
